@@ -15,5 +15,5 @@ FROM
 
 {% if is_incremental() %}
     -- this filter will only be applied on an incremental run
-    where ORDER_ID > (select max(ORDER_ID) from {{ this }}) 
+    where ORDER_ID >= (select max(ORDER_ID) from {{ this }}) 
 {% endif %}

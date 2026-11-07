@@ -1,0 +1,5 @@
+ORDER_STATUS,DESCRIPTION
+Pending,Order received
+Completed,Order dispatched
+Pending,Order completed
+Completed,Order cancelled

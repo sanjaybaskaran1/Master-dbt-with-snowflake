@@ -6,4 +6,3 @@ sources:
     schema: RAW_SCHEMA
     tables:
       - name: ORDERS
-
